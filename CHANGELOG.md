@@ -1,5 +1,24 @@
 # Changelog
 
+## [10.1.0](https://github.com/Bekaboo/dropbar.nvim/compare/v10.0.0...v10.1.0) (2025-01-14)
+
+
+### Features
+
+* **sources.path:** support special bufs starting with `xxx://` ([#211](https://github.com/Bekaboo/dropbar.nvim/issues/211)) ([de3125a](https://github.com/Bekaboo/dropbar.nvim/commit/de3125ac765653788e5054c6e2df50a0f2191585))
+
+
+### Bug Fixes
+
+* **sources.treesitter:** error getting treesitter node ([80538f5](https://github.com/Bekaboo/dropbar.nvim/commit/80538f5eee685c801d3049f6f42867f1ca33de4f))
+* Wrap `vim.treesitter.get_node()` with `vim.F.npcall()`. ([80538f5](https://github.com/Bekaboo/dropbar.nvim/commit/80538f5eee685c801d3049f6f42867f1ca33de4f))
+
+
+### Performance Improvements
+
+* **sources.path:** only load visible lines when preview ([51047f5](https://github.com/Bekaboo/dropbar.nvim/commit/51047f54a4535e775979272bfbeb685a6d229654))
+* **sources.path:** stop treesitter before setting preview buf lines ([9f6a19a](https://github.com/Bekaboo/dropbar.nvim/commit/9f6a19aad3069c346738fd66d2f2679c3bb55e75))
+
 ## [10.0.0](https://github.com/Bekaboo/dropbar.nvim/compare/v9.0.2...v10.0.0) (2024-12-28)
 
 
